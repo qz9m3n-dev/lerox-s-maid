@@ -1,0 +1,19 @@
+const { EmbedBuilder } = require('discord.js');
+
+const embed = new EmbedBuilder()
+    .setColor('#FFD700')
+    .setTitle('💰 SPAWNER PRICES 💰')
+    .setDescription(
+        '**📥 WE BUY FROM YOU**\n' +
+        '3.4M EACH\n\n' +
+        '**📤 WE SELL TO YOU**\n' +
+        '4.2M EACH\n\n' +
+        '**📋 REQUIREMENTS**\n' +
+        '• Minimum purchase/sale: **64 Spawners**\n' +
+        '• **Skeleton Spawners:** Minimum is **32**\n\n' +
+        '**⚠️ IMPORTANT**\n' +
+        'We are **NOT** selling any spawners that are not listed.\n\n' +
+        '🎫 **Create a ticket to buy or sell!**'
+    );
+
+channel.send({ embeds: [embed] });
